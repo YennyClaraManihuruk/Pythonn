@@ -28,7 +28,7 @@ Grafik yang ditampilkan adalah histogram dengan kurva KDE untuk kolom 'Jumlah Bu
 3.	Kurva KDE menunjukkan puncak distribusi sekitar 40 buku dan menurun setelah itu, menunjukkan bahwa sebagian besar data jumlah buku yang terjual terkonsentrasi di sekitar 40 buku dan berkurang seiring bertambahnya atau berkurangnya jumlah buku yang terjual.
 Ini memberikan gambaran bahwa distribusi jumlah buku yang terjual dalam dataset memiliki puncak di sekitar 40 buku dan cenderung menurun di jumlah yang lebih sedikit atau lebih banyak dari itu.
 
-**Gambar 2 **
+**Gambar 2**
 ![Figure_2](https://github.com/YennyClaraManihuruk/Pythonn/assets/166583340/6f4bc375-2daf-46f3-80fd-a9d75412cf66)
 
 **Interpretasi Grafik: Jumlah Buku Terjual vs Pendapatan**
