@@ -1,4 +1,5 @@
 **Soal: Analisis Penjualan Toko Buku**
+
 Anda memiliki dataset yang berisi informasi penjualan sebuah toko buku. Dataset tersebut terdiri dari empat kolom:
 1.	Tanggal (format: YYYY-MM-DD): Tanggal penjualan buku.
 2.	Nama_Buku: Nama buku yang terjual.
@@ -10,6 +11,7 @@ Gambar 1
 ![Figure_1](https://github.com/YennyClaraManihuruk/Pythonn/assets/166583340/ff36d216-f0ed-4610-845a-1f46be9e2371)
 Interpretasi Grafik: Distribusi Jumlah Buku yang Terjual
 Grafik yang ditampilkan adalah histogram dengan kurva KDE untuk kolom 'Jumlah Buku yang Terjual'. Berikut adalah interpretasi dari grafik tersebut: 
+
 • Sumbu X (Horizontal): Menunjukkan rentang jumlah buku yang terjual. 
 • Sumbu Y (Vertikal): Menunjukkan frekuensi atau jumlah kejadian untuk setiap rentang jumlah buku yang terjual. 
 • Histogram (Bar): Menunjukkan berapa banyak data (frekuensi) yang berada dalam rentang jumlah buku tertentu. 
