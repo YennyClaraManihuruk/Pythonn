@@ -4,7 +4,8 @@ Anda memiliki dataset yang berisi informasi penjualan sebuah toko buku. Dataset 
 2.	Nama_Buku: Nama buku yang terjual.
 3.	Jumlah: Jumlah buku yang terjual.
 4.	Pendapatan: Pendapatan dari penjualan buku tersebut.
-Langkah-langkah:
+
+**Langkah-langkah:**
 1.	Persiapan Lingkungan Kerja:
 o	Pastikan Python dan library yang dibutuhkan sudah terpasang (pandas, matplotlib, seaborn).
 o	Import library yang diperlukan.
