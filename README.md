@@ -9,6 +9,7 @@ Anda memiliki dataset yang berisi informasi penjualan sebuah toko buku. Dataset 
 1.	Persiapan Lingkungan Kerja:
 o	Pastikan Python dan library yang dibutuhkan sudah terpasang (pandas, matplotlib, seaborn).
 o	Import library yang diperlukan.
+
 python
 Copy code
 import pandas as pd
