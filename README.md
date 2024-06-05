@@ -1,92 +1,11 @@
-Soal: Analisis Penjualan Toko Buku
+**Soal: Analisis Penjualan Toko Buku**
 Anda memiliki dataset yang berisi informasi penjualan sebuah toko buku. Dataset tersebut terdiri dari empat kolom:
 1.	Tanggal (format: YYYY-MM-DD): Tanggal penjualan buku.
 2.	Nama_Buku: Nama buku yang terjual.
 3.	Jumlah: Jumlah buku yang terjual.
 4.	Pendapatan: Pendapatan dari penjualan buku tersebut.
 
-**Langkah-langkah:**
-1.	Persiapan Lingkungan Kerja:
-o	Pastikan Python dan library yang dibutuhkan sudah terpasang (pandas, matplotlib, seaborn).
-o	Import library yang diperlukan.
-
-python
-Copy code
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-2.	Membaca Dataset:
-o	Baca dataset dari file CSV.
-python
-Copy code
-data = pd.read_csv('nama_file.csv')
-3.	Menampilkan Informasi Dataset:
-o	Cek informasi dasar mengenai dataset.
-python
-Copy code
-print(data.info())
-print(data.head())
-print(data.describe())
-4.	Analisis Data:
-o	Analisis statistik deskriptif.
-o	Melihat distribusi jumlah buku yang terjual dan pendapatannya.
-python
-Copy code
-# Statistik deskriptif
-print(data.describe())
-
-# Distribusi jumlah buku yang terjual
-plt.figure(figsize=(10, 6))
-sns.histplot(data['Jumlah'], bins=20, kde=True)
-plt.title('Distribusi Jumlah Buku yang Terjual')
-plt.xlabel('Jumlah Buku')
-plt.ylabel('Frekuensi')
-plt.show()
-
-# Distribusi pendapatan
-plt.figure(figsize=(10, 6))
-sns.histplot(data['Pendapatan'], bins=20, kde=True)
-plt.title('Distribusi Pendapatan')
-plt.xlabel('Pendapatan')
-plt.ylabel('Frekuensi')
-plt.show()
-5.	Analisis Trend Penjualan:
-o	Melihat trend penjualan dari waktu ke waktu.
-python
-Copy code
-# Mengubah tipe data Tanggal menjadi datetime
-data['Tanggal'] = pd.to_datetime(data['Tanggal'])
-
-# Mengurutkan data berdasarkan Tanggal
-data = data.sort_values('Tanggal')
-
-# Plot trend penjualan
-plt.figure(figsize=(12, 6))
-plt.plot(data['Tanggal'], data['Jumlah'], marker='o', linestyle='-')
-plt.title('Trend Penjualan Buku')
-plt.xlabel('Tanggal')
-plt.ylabel('Jumlah Buku Terjual')
-plt.grid(True)
-plt.show()
-6.	Analisis Kategori Buku Terlaris:
-o	Mengetahui buku apa yang paling laris terjual.
-python
-Copy code
-# Menghitung total penjualan per buku
-penjualan_per_buku = data.groupby('Nama_Buku')['Jumlah'].sum().reset_index()
-
-# Sorting berdasarkan jumlah penjualan
-penjualan_per_buku = penjualan_per_buku.sort_values('Jumlah', ascending=False)
-
-# Plot 10 buku terlaris
-plt.figure(figsize=(10, 6))
-sns.barplot(x='Jumlah', y='Nama_Buku', data=penjualan_per_buku.head(10))
-plt.title('Top 10 Buku Terlaris')
-plt.xlabel('Jumlah Terjual')
-plt.ylabel('Nama Buku')
-plt.show()
-
-Hasil dan Interpretasi Gambar
+**Hasil dan Interpretasi Gambar**
 Gambar 1
 ![Figure_1](https://github.com/YennyClaraManihuruk/Pythonn/assets/166583340/ff36d216-f0ed-4610-845a-1f46be9e2371)
 Interpretasi Grafik: Distribusi Jumlah Buku yang Terjual
