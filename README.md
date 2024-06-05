@@ -9,7 +9,8 @@ Anda memiliki dataset yang berisi informasi penjualan sebuah toko buku. Dataset 
 **Hasil dan Interpretasi Gambar**
 
 **Gambar 1**
-![Figure_1](https://github.com/YennyClaraManihuruk/Pythonn/assets/166583340/ff36d216-f0ed-4610-845a-1f46be9e2371)
+![Figure_1](https://github.com/YennyClaraManihuruk/TUGASUAS-YENNYMANIHURUK-AKUNTANSI-036/assets/166583340/ce96c32b-3402-4f95-85fa-81819dc1765a)
+
 **Interpretasi Grafik: Distribusi Jumlah Buku yang Terjual**
 
 Grafik yang ditampilkan adalah histogram dengan kurva KDE untuk kolom 'Jumlah Buku yang Terjual'. Berikut adalah interpretasi dari grafik tersebut: 
@@ -29,7 +30,7 @@ Grafik yang ditampilkan adalah histogram dengan kurva KDE untuk kolom 'Jumlah Bu
 Ini memberikan gambaran bahwa distribusi jumlah buku yang terjual dalam dataset memiliki puncak di sekitar 40 buku dan cenderung menurun di jumlah yang lebih sedikit atau lebih banyak dari itu.
 
 **Gambar 2**
-![Figure_2](https://github.com/YennyClaraManihuruk/Pythonn/assets/166583340/6f4bc375-2daf-46f3-80fd-a9d75412cf66)
+![Figure_2](https://github.com/YennyClaraManihuruk/TUGASUAS-YENNYMANIHURUK-AKUNTANSI-036/assets/166583340/143ef2f9-86a5-4010-bf8e-2827d940ce0b)
 
 **Interpretasi Grafik: Jumlah Buku Terjual vs Pendapatan**
 
@@ -53,7 +54,7 @@ Rentang Data:
 Grafik ini memberikan gambaran yang jelas bahwa pendapatan meningkat secara proporsional dengan peningkatan jumlah buku yang terjual. Hubungan yang terlihat linier menunjukkan bahwa setiap tambahan buku yang terjual memberikan kontribusi yang relatif konstan terhadap peningkatan pendapatan.
 
 **Gambar 3**
-![Figure_3](https://github.com/YennyClaraManihuruk/Pythonn/assets/166583340/00e37e4e-d5f3-4052-9168-6528d858e7a1)
+![Figure_3](https://github.com/YennyClaraManihuruk/TUGASUAS-YENNYMANIHURUK-AKUNTANSI-036/assets/166583340/e17e188d-629c-4b3a-89f2-48d128e651b1)
 
 **Grafik: Total Penjualan per Buku**
 
@@ -78,7 +79,7 @@ Grafik yang ditampilkan adalah diagram batang yang menunjukkan total penjualan u
 Grafik ini menunjukkan bahwa Buku A adalah yang paling populer di antara keempat buku yang ditampilkan, sementara Buku B memiliki penjualan terendah. Buku C dan Buku D memiliki penjualan yang cukup seimbang.
 
 **Gambar 4**
-![Figure_4](https://github.com/YennyClaraManihuruk/Pythonn/assets/166583340/913594d2-cde9-4778-a9c9-0dd70d3df3b9)
+![Figure_4](https://github.com/YennyClaraManihuruk/TUGASUAS-YENNYMANIHURUK-AKUNTANSI-036/assets/166583340/18c4be8b-c743-466c-9f0f-711b19808f9c)
 
 **Interpretasi Grafik: Trend Penjualan Buku**
 
